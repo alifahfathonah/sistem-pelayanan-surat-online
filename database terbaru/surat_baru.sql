@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 22, 2022 at 05:03 PM
--- Server version: 10.4.20-MariaDB
--- PHP Version: 7.4.21
+-- Generation Time: Oct 31, 2022 at 05:45 PM
+-- Server version: 10.4.25-MariaDB
+-- PHP Version: 7.4.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `surat`
+-- Database: `surat_baru`
 --
 
 -- --------------------------------------------------------
@@ -71,7 +71,10 @@ CREATE TABLE `data_request_skp` (
 --
 
 INSERT INTO `data_request_skp` (`id_request_skp`, `nik`, `tanggal_request`, `scan_ktp`, `scan_kk`, `keperluan`, `keterangan`, `request`, `status`, `acc`) VALUES
-(10, '1111111111111111', '2021-10-18 06:14:07', '1111111111111111_.jpg', '1111111111111111_.jpg', 'KTP Hilang', 'Surat dicetak, bisa diambil!', 'LAINNYA', 3, '2021-10-18');
+(10, '1111111111111111', '2021-10-18 06:14:07', '1111111111111111_.jpg', '1111111111111111_.jpg', 'KTP Hilang', 'Surat dicetak, bisa diambil!', 'LAINNYA', 3, '2021-10-18'),
+(11, '1901717717177777', '2022-10-31 07:06:19', '1901717717177777_.jpg', '1901717717177777_.jpg', 'BPJS', 'Surat dicetak, bisa diambil!', 'LAINNYA', 3, '2022-10-31'),
+(12, '12', '2022-10-31 15:49:37', '12_.jpg', '12_.jpg', 'BPJS', 'Surat dicetak, bisa diambil!', 'LAINNYA', 3, '2022-10-31'),
+(13, '12', '2022-10-31 16:25:37', '12_.jpg', '12_.jpg', 'aa', 'Surat dicetak, bisa diambil!', 'LAINNYA', 3, '2022-10-31');
 
 -- --------------------------------------------------------
 
@@ -97,7 +100,10 @@ CREATE TABLE `data_request_sktm` (
 --
 
 INSERT INTO `data_request_sktm` (`id_request_sktm`, `nik`, `tanggal_request`, `scan_ktp`, `scan_kk`, `keperluan`, `request`, `keterangan`, `status`, `acc`) VALUES
-(50, '1111111111111111', '2021-10-17 10:06:35', '1111111111111111 - Fachri Shofiyyuddin Ahmad_.jpg', '1111111111111111 - Fachri Shofiyyuddin Ahmad_.jpg', 'Beasiswa Sekolah', 'TIDAK MAMPU', 'Surat dicetak, bisa diambil!', 3, '2021-10-17');
+(50, '1111111111111111', '2021-10-17 10:06:35', '1111111111111111 - Fachri Shofiyyuddin Ahmad_.jpg', '1111111111111111 - Fachri Shofiyyuddin Ahmad_.jpg', 'Beasiswa Sekolah', 'TIDAK MAMPU', 'Surat dicetak, bisa diambil!', 3, '2021-10-17'),
+(51, '1901717717177777', '2022-10-31 06:37:20', '1901717717177777_.jpg', '1901717717177777_.jpg', 'baka', 'TIDAK MAMPU', 'Surat dicetak, bisa diambil!', 3, '2022-10-31'),
+(52, '1901717717177777', '2022-10-31 09:07:36', '1901717717177777_.jpg', '1901717717177777_.jpg', 'a', 'TIDAK MAMPU', 'Surat sedang dalam proses cetak', 2, '2022-10-31'),
+(53, '12', '2022-10-31 15:49:16', '12_.jpg', '12_.jpg', 'BEASISWA', 'TIDAK MAMPU', 'Surat dicetak, bisa diambil!', 3, '0000-00-00');
 
 -- --------------------------------------------------------
 
@@ -152,9 +158,12 @@ CREATE TABLE `data_user` (
 
 INSERT INTO `data_user` (`nik`, `password`, `hak_akses`, `nama`, `tanggal_lahir`, `tempat_lahir`, `jekel`, `agama`, `alamat`, `telepon`, `status_warga`) VALUES
 ('009908', 'kjnkjn', 'Pemohon', 'NJBKJBH', '2021-12-11', 'kjnkj', 'Laki-Laki', '', 'kjnhkjn', '', 'Kerja'),
-('1', '1', 'Lurah', 'coba', '2021-10-20', 'coba', 'Laki-Laki', '', 'coba', '', 'Kerja'),
+('1', '1', 'KADIS', 'coba', '2021-10-20', 'coba', 'Laki-Laki', '', 'coba', '', 'Kerja'),
 ('1111111111111111', '12345', 'Pemohon', 'Fachri Shofiyyuddin Ahmad', '2021-10-17', 'Jakarta', 'Laki-Laki', 'Islam', '        Jakarta RT 01/RW 07', '087897315639', 'Sekolah'),
+('12', '12', 'Pemohon', '21', '2016-02-29', 'admin@gmail.com', 'Laki-Laki', '', '', '', 'Bekerja'),
+('1901717717177777', '1', 'Pemohon', 'julis', '2022-10-31', 'pinang', 'Laki-Laki', '', '', '', ''),
 ('2', '2', 'Staf', 'coba', '2021-10-20', 'coba', 'Perempuan', '', 'coba', '', 'Kerja'),
+('22', '123', 'Pemohon', 'Zega', '2022-10-31', 'admin123', 'Laki-Laki', '', '', '', 'Sekolah'),
 ('777', '12345', 'Pemohon', 'a', '2021-10-20', 'oke', 'Laki-Laki', '', 'x', '', 'Sekolah'),
 ('888', '12345', 'Pemohon', 'cobalagi', '2021-10-20', 'cobalagi', 'Perempuan', '', 'coba', '', 'Sekolah'),
 ('8923478923789489', 'tes', 'Pemohon', 'coba', '2022-05-22', 'kudus', 'Laki-Laki', '', '', '', '');
@@ -211,13 +220,13 @@ ALTER TABLE `data_request_skd`
 -- AUTO_INCREMENT for table `data_request_skp`
 --
 ALTER TABLE `data_request_skp`
-  MODIFY `id_request_skp` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id_request_skp` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `data_request_sktm`
 --
 ALTER TABLE `data_request_sktm`
-  MODIFY `id_request_sktm` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
+  MODIFY `id_request_sktm` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=54;
 
 --
 -- AUTO_INCREMENT for table `data_request_sku`

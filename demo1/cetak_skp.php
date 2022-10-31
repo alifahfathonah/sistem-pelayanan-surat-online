@@ -34,7 +34,7 @@
 
     <table border="0" align="center">
         <tr>
-        <td><img src="img/kudus.png" width="70" height="87" alt=""></td>
+        <td><img src="img/kopdinsos.jpg" width="100" height="87" alt=""></td>
         <td></td>
         <td></td>
         <td></td>
@@ -56,10 +56,10 @@
         <td></td>
             <td>
                 <center>
-                    <font size="4">PEMERINTAHAN KABUPATEN KUDUS</font><br>
-                    <font size="4">KECAMATAN KOTA KUDUS</font><br>
-                    <font size="5"><b>KELURAHAN WERGU WETAN</b></font><br>
-                    <font size="2"><i>JL. Loram No.9 Kudus 59318</i></font><br>
+                    <font size="4">PEMERINTAH KOTA TANJUNGPINANG</font><br>
+                    <font size="5"><b>DINAS SOSIAL</b></font><br>
+                    <font size="2"><i>Jln. D.I. Panjaitan KM. X Komp. Embung Fatimah Telp. (0771) 442185 Fax. (0771) 442185</i></font><br>
+                    <font size="2"><i>E-mail : dinsoskotatanjungpinang@gmail.com – Kode Pos 29125</i></font><br>
                 </center>
             </td>
         <td></td>
@@ -84,7 +84,7 @@
         <td></td>
         </tr>
         <tr>
-            <td colspan="45"><hr color="black"></td>
+            <td colspan="400" border align="90" ><hr color="black"></td>
         </tr>
     </table>
     <br>
@@ -92,9 +92,9 @@
         <tr>
             <td>
                 <center>
-                    <font size="4"><b>SURAT KETERANGAN / PENGANTAR LAINNYA</b></font><br>
+                    <font size="4"><b>SURAT REKOMENDASI</b></font><br>
                     <hr style="margin:0px" color="black">
-                    <span>Nomor : 045.2 / <?php echo $id;?> / 29.07.05</span>
+                    <span>Nomor : 045.2 /...../ 29.07.05</span>
                 </center>
             </td>
         </tr>
@@ -104,7 +104,7 @@
     <table border="0" align="center">
         <tr>
             <td>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yang bertanda tangan di bawah ini Lurah Wergu Wetan Kabupaten Kota <br> Kudus, Menerangkan bahwa :
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yang bertanda tangan di bawah ini Kepala Dinas Sosial Kota Tanjungpinang <br> ,Menerangkan bahwa :
             </td>
         </tr>
     </table>
@@ -155,7 +155,7 @@
             <td>:</td>
             <?php
                 if($request=="LAINNYA"){
-                    $request="Surat Keterangan / Pengantar Lainnya";
+                    $request="SURAT REKOMENDASI";
                 }
             ?>
             <td><?php echo $request;?></td>
@@ -171,17 +171,21 @@
     </table>
     <br>
     <br>
-    <br>
     <table border="0" align="center">
         <tr>
             <th></th>
             <th width="100px"></th>
-            <th>Kudus, <?php echo $format4;?></th>
+            <th>Tanjungpinang, <?php echo $acc;?></th>
         </tr>
         <tr>
-            <td>Tanda tangan <br> Yang bersangkutan </td>
+            <td> </td>
             <td></td>
-            <td>Lurah Wergu Wetan</td>
+            <td>KEPALA DINAS SOSIAL </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td></td>
+            <td>KOTA TANJUNGPINANG</td>
         </tr>
         <tr>
             <td rowspan="15"></td>
@@ -231,9 +235,9 @@
             <td></td>
         </tr>
         <tr>
-            <td><b style="text-transform:uppercase"><u>(<?php echo $nama;?>)</u></b></td>
             <td></td>
-            <td><b><u>(AGUS SUPRIYANTO)</u></b></td>
+            <td></td>
+            <td><b><u>(Achmad Nur Fattah, S.sos,M.Si)</u></b></td>
         </tr>
     </table>
 

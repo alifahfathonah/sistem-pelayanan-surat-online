@@ -134,7 +134,7 @@
                                                         }elseif($status=="0"){
                                                             $status = "<b style='color:red'>BELUM ACC staf</b>";
                                                         }elseif($status=="2"){
-															$status = "<b style='color:blue'>Sudah ACC Lurah</b>";
+															$status = "<b style='color:blue'>Sudah ACC KADIS</b>";
 														}elseif($status=="3"){
 															$status = "<b style='color:green'>SURAT SUDAH DICETAK</b>";
 														}

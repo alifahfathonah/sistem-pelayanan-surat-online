@@ -84,9 +84,9 @@
 													<label>Status Warga</label>
 													<select name="status_warga" class="form-control">
 														<option disabled="" selected="">Pilih Status Warga</option>
-														<option value='Sekolah'>Sekolah</option>
-														<option value='Kerja'>Kerja</option>
-														<option value='Belum Bekerja'>Belum Bekerja</option>
+														<option value='Pelajar / Mahasiswa'>Pelajar / Mahasiswa</option>
+														<option value='Bekerja'>Bekerja</option>
+														<option value='Tida Bekerja'>Tidak Bekerja</option>
 													</select>
 												</div>
 											</div>

@@ -93,7 +93,7 @@
 													<div class="form-group">
 														<label>Status Warga</label>
 														<select name="status_warga" value="<?php echo $status_warga;?>" class="form-control">
-															<option value="Sekolah" <?php if($status_warga=="Sekolah") echo 'selected'?>>Sekolah</option>
+															<option value="Pelajar/Mahasiswa" <?php if($status_warga=="Pelajar/Mahasiswa") echo 'selected'?>>Pelajar/Mahasiswa</option>
 															<option value="Kerja" <?php if($status_warga=="Kerja") echo 'selected'?>>Kerja</option>
 															<option value="Belum Bekerja" <?php if($status_warga=="Belum Bekerja") echo 'selected'?>>Belum Bekerja</option>
 														</select>

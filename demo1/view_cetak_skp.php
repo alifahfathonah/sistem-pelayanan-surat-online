@@ -221,7 +221,7 @@
             <td>:</td>
             <?php
                 if($request=="LAINNYA"){
-                    $request="Surat Keterangan / Pengantar Lainnya";
+                    $request="SURAT REKOMENDASI";
                 }
             ?>
             <td><?php echo $request;?></td>
@@ -246,7 +246,12 @@
         <tr>
             <td> </td>
             <td></td>
-            <td>KEPALA DINAS SOSIAL TANJUNGPINANG</td>
+            <td>KEPALA DINAS SOSIAL </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td></td>
+            <td>KOTA TANJUNGPINANG</td>
         </tr>
         <tr>
             <td rowspan="15"></td>
@@ -298,11 +303,12 @@
         <tr>
             <td></td>
             <td></td>
-            <td><b><u>(AGUS SUPRIYANTO)</u></b></td>
+            <td><b><u>(Achmad Nur Fattah, S.sos,M.Si)</u></b></td>
         </tr>
     </table>
-                                
-                                </table>
+
+
+
 
 								</div>
 							</div>

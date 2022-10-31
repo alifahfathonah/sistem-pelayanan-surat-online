@@ -109,7 +109,7 @@
 <body>
 <table border="0" align="center">
         <tr>
-        <td><img src="img/kudus.png" width="70" height="87" alt=""></td>
+        <td><img src="img/Dinsos.png" width="70" height="87" alt=""></td>
         <td></td>
         <td></td>
         <td></td>
@@ -131,8 +131,8 @@
         <td></td>
             <td>
                 <center>
-                    <font size="4"><b>LAPORAN REQUEST SURAT KETERANGAN</b></font><br>
-                    <font size="4"><b>KELURAHAN WERGU WETAN</b></font><br>
+                    <font size="4"><b>LAPORAN SISTEM PELAYANAN SURAT ONLINE</b></font><br>
+                    <font size="4"><b>KOTA TANJUNGPINANG</b></font><br>
                     <font size="4"><b>BULAN <?php echo $bln;?></b></font><br>
                 </center>
             </td>

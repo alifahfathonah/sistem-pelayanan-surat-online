@@ -143,7 +143,7 @@
                                                 <center>
                                                     <font size="4"><b>SURAT KETERANGAN TIDAK MAMPU</b></font><br>
                                                     <hr style="margin:0px" color="black">
-                                                    <span>Nomor : 045.2 / <?php echo $id;?> / 29.07.05</span>
+                                                    <span>Nomor : 045.2 /...../ 29.07.05</span>
                                                 </center>
                                             </td>
                                         </tr>
@@ -153,7 +153,7 @@
                                     <table border="0" align="center">
                                         <tr>
                                             <td>
-                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yang bertanda tangan di bawah ini Lurah Wergu Wetan Kabupaten Kota <br> Kudus, Menerangkan bahwa :
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yang bertanda tangan di bawah ini Kepala Dinas Sosial Kota Tanjungpinang <br> , Menerangkan bahwa :
                                             </td>
                                         </tr>
                                     </table>
@@ -214,6 +214,17 @@
                                     </table>
                                     <br>
                                     <table border="0" align="center">
+                                        <tr>
+                                            <td>
+                                          
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bahwa nama tersebut di atas adalah benar penduduk kota Tanjungpinang<br>&nbsp;&nbsp;&nbsp;&nbsp;.
+                                            </td>
+                                            
+                                        </tr>
+                    
+                                    </table>
+                                    <table border="0" align="center">
+                                        
                                         <tr>
                                             <td>
                                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Demikian surat ini diberikan kepada yang bersangkutan agar dapat dipergunakan<br>&nbsp;&nbsp;&nbsp;&nbsp;untuk sebagaimana mestinya.
@@ -288,7 +299,7 @@
                                         <tr>
                                             <td></td>
                                             <td></td>
-                                            <td><b><u>(TRISNDI)</u></b></td>
+                                            <td><b><u>(Achmad Nur Fattah, S.sos,M.Si)</u></b></td>
                                         </tr>
                                     </table>
                                 </table>
