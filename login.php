@@ -84,7 +84,7 @@
             $_SESSION['nik']=$data_login['nik'];
 
           echo "<script language='javascript'>swal('Selamat...', 'Login Berhasil!', 'success');</script>" ;
-          echo '<meta http-equiv="refresh" content="3; url=demo1/main.php">';
+          echo '<meta http-equiv="refresh" content="3; url=pemohon/dashboard.php">';
         }else{
           echo "<script language='javascript'>swal('Gagal...', 'Login Gagal', 'error');</script>" ;
           echo '<meta http-equiv="refresh" content="3; url=login.php">';

@@ -102,7 +102,7 @@
           $_SESSION['password']=$data_login['password'];
 
           echo "<script language='javascript'>swal('Selamat...', 'Login Berhasil!', 'success');</script>" ;
-          echo '<meta http-equiv="refresh" content="3; url=demo1/main2.php">';
+          echo '<meta http-equiv="refresh" content="3; url=pegawai/dashboard.php">';
         }else{
           echo "<script language='javascript'>swal('Gagal...', 'Login Gagal', 'error');</script>" ;
           echo '<meta http-equiv="refresh" content="3; url=pegawai.php">';
