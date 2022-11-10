@@ -23,6 +23,7 @@
 														<th>Status</th>
 														<th>Scan KTP</th>
 														<th>Scan KK</th>
+														<th>Keterangan</th>
 														<th style="width: 10%">Action</th>
 													</tr>
 												</thead>
@@ -36,13 +37,14 @@
 															$nik = $data['nik'];
 															$nama = $data['nama'];
 															$status = $data['status'];
-															$id= $data['id_request_skp'];
+															$id= $data['id_request_sktm'];
 															$ktp = $data['scan_ktp'];
 															$kk = $data['scan_kk'];
+															$keterangan = $data['keterangan'];
 															$id_request_skp = $data['id_request_skp'];
 	
 															if($status=="1"){
-																$status = "SUDAH ACC STAF";
+																$status = "Sudah ACC Staf";
 															}elseif($status=="0"){
 																$status = "BELUM ACC";
 															}
@@ -54,6 +56,15 @@
 														<td class="fw-bold text-uppercase text-success op-8"><?php echo $status;?></td>
 														<td><img src="../dataFoto/scan_ktp/<?php echo $ktp;?>" width="50" height="50" alt=""></td>
 														<td><img src="../dataFoto/scan_kk/<?php echo $kk;?>" width="50" height="50" alt=""></td>
+														<td><i><?php echo $keterangan;?></i></td>
+														<!-- <td>
+															<input type="checkbox" name="check[$i]" value="<?php echo $id;?>">
+															<input type="submit" name="acc" class="btn btn-primary btn-sm" value="ACC">
+															<div class="form-button-action">
+																<a type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Lihat Surat" href="?halaman=detail_sktm&id_request_sktm=<?= $id_request_skp;?>">
+																<i class="fa fa-edit"></i></a>
+															</div>
+														</td> -->
 														<td>
 															<div class="form-button-action">
 																<a type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="View Surat" href="?halaman=view_skp&id_request_skp=<?= $id_request_skp;?>">
@@ -67,16 +78,13 @@
 												</tbody>
 											</table>
 										</div>
-										</div>
-										</div>
-									</div>
-								</form>
+									</form>
+								</div>
 							</div>
                         </div>
                         
 					</div>
 				</div>
-
 <?php
     if(isset($_POST['acc'])){
         if(isset($_POST['check']))
