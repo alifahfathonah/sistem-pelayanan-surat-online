@@ -108,7 +108,7 @@
 <body>
 <table border="0" align="center">
         <tr>
-        <td><img src="img/kudus.png" width="70" height="87" alt=""></td>
+        <td><img src="img/Dinsos.png" width="70" height="87" alt=""></td>
         <td></td>
         <td></td>
         <td></td>
@@ -210,14 +210,15 @@
             <tr>
                 <td style="text-align: center"><b>Tanjungpinang, <?php echo date('d F Y');?></b></td>
             </tr>
+            <tr>
+                <td style="text-align: center"><b>Kepala Dinas Sosial Kota Tanjungpinang</b></td>
+            </tr>
         </table>
         <br><br><br><br><br>
         <table border='0' align="right">
+            
             <tr>
-                <td style="text-align: center"><b>Kepala Dinas Sosial</b></td>
-            </tr>
-            <tr>
-                <td style="text-align: center"><b>	(Achmad Nur Fattah, S.sos,M.Si)
+                <td style="text-align: center"><b>Achmad Nur Fattah
 </b></td>
             </tr>
         </table>

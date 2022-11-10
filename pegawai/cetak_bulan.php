@@ -209,16 +209,18 @@
 <br>
         <table border='0' align="right">
             <tr>
-                <td style="text-align: center"><b>Kudus, <?php echo date('d F Y');?></b></td>
+                <td style="text-align: center"><b>Tanjungpinang, <?php echo date('d F Y');?></b></td>
+            </tr>
+            <tr>
+                <td style="text-align: center"><b>Kepala Dinas Sosial Kota Tanjungpinang</b></td>
             </tr>
         </table>
         <br><br><br><br><br>
         <table border='0' align="right">
+            
             <tr>
-                <td style="text-align: center"><b>Lurah Wergu Wetan</b></td>
-            </tr>
-            <tr>
-                <td style="text-align: center"><b>Agus Supriyanto</b></td>
+                <td style="text-align: center"><b>Achmad Nur Fattah
+</b></td>
             </tr>
         </table>
 </body>
