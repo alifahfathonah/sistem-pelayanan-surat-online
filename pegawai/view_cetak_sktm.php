@@ -170,7 +170,7 @@
                                     <table border="0" align="center">
                                         <tr>
                                             <td>
-                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yang bertanda tangan di bawah ini Lurah Wergu Wetan Kabupaten Kota <br> Kudus, Menerangkan bahwa :
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yang bertanda tangan di bawah ini Kepala Dinas Sosial Kota <br> Tanjungpinang, Menerangkan bahwa :
                                             </td>
                                         </tr>
                                     </table>
